@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {defaultState,placements,restoreState,logoPlacement} from '../dist/core.js';
+import {defaultState,placements,restoreState,logoPlacement,logoVisible} from '../dist/core.js';
 
 test('saved sessions using removed templates resume in a supported placement without losing media settings',()=>{
  const saved={placement:'sponsored',title:'My island',crop:{'A:discover:landscape':{x:28,y:65,zoom:105}},lobbyCount:3};
@@ -38,4 +38,16 @@ test('generic promotional copy replaces old starter copy while preserving custom
  assert.equal(custom.headline,'Our custom headline');
  assert.equal(custom.postTitle,'Our update');
  assert.equal(custom.eventTitle,'Our event');
+});
+
+test('logo visibility is saved per placement and takes over the banner switch',()=>{
+ const state=restoreState({});
+ assert.equal(logoVisible(state,'discover'),true);
+ state.logoVisibility.discover=false;
+ const reloaded=restoreState(JSON.parse(JSON.stringify(state)));
+ assert.equal(logoVisible(reloaded,'discover'),false);
+ assert.equal(logoVisible(reloaded,'mobile'),true);
+ const legacy=restoreState({showBannerLogo:false});
+ assert.equal(logoVisible(legacy,'hero'),false);
+ assert.equal('showBannerLogo' in legacy,false);
 });

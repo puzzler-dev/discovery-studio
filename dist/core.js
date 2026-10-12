@@ -19,14 +19,19 @@ export const placements = [
   {id:'post',name:'Creator post',icon:'message',label:'Creator update',source:'landscape',note:'Landscape media beside creator copy, based on your in-game update screenshot.',calibrated:true},
   {id:'event',name:'Events',icon:'calendar',label:'Community events',source:'landscape',note:'Landscape media cropped into a taller event-card image area; this is not a separate upload format.',calibrated:true}
 ];
-export const defaultState = {page:'preview',placement:'discover',variant:'A',mode:'text',ratio:'16/9',guides:false,ui:true,profile:'current',title:'ARCADE CHESS',creator:'Puzzler Creations',description:'Your next move changes everything. Jump in, challenge a friend, and rule the board.',headline:'DISCOVER SOMETHING NEW',newsTagline:'Explore a new experience and see what is waiting for you.',count:'1.2K',eventTitle:'COMMUNITY EVENT',eventTagline:'Join the community and be part of the experience.',postTitle:'ISLAND UPDATE',postBody:'See what is new, explore the island, and join the community.',islandCode:'0000-0000-0000',updated:'Oct 11, 2026',released:'Oct 11, 2026',maxPlayers:'16',favorites:'1.2K',detailMedia:'thumbnail',crop:{},logo:{x:50,y:22,width:42},logoPlacements:{},review:{},selectedSlot:'landscape',video:'trailer',useVideo:false,showBannerLogo:true,lobbyCount:4};
+export const defaultState = {page:'preview',placement:'discover',variant:'A',mode:'text',ratio:'16/9',guides:false,ui:true,profile:'current',title:'ARCADE CHESS',creator:'Puzzler Creations',description:'Your next move changes everything. Jump in, challenge a friend, and rule the board.',headline:'DISCOVER SOMETHING NEW',newsTagline:'Explore a new experience and see what is waiting for you.',count:'1.2K',eventTitle:'COMMUNITY EVENT',eventTagline:'Join the community and be part of the experience.',postTitle:'ISLAND UPDATE',postBody:'See what is new, explore the island, and join the community.',islandCode:'0000-0000-0000',updated:'Oct 11, 2026',released:'Oct 11, 2026',maxPlayers:'16',favorites:'1.2K',detailMedia:'thumbnail',crop:{},logo:{x:50,y:22,width:42},logoPlacements:{},review:{},selectedSlot:'landscape',video:'trailer',useVideo:false,logoVisibility:{},lobbyCount:4};
 export const defaultLogoPlacements={discover:{x:50,y:22,width:42},hero:{x:76,y:46,width:28},mobile:{x:50,y:20,width:70}};
 export function logoPlacement(state,placement=state.placement){return {...(defaultLogoPlacements[placement]||defaultState.logo),...state.logoPlacements?.[placement]};}
+// Whether the logo overlays this placement's art-only artwork; on until switched off.
+export function logoVisible(state,placement=state.placement){return state.logoVisibility?.[placement]??true;}
 export function restoreState(saved){
  const s=saved&&typeof saved==='object'?saved:{};
- const next={...structuredClone(defaultState),...s,crop:s.crop||{},review:s.review||{},logoPlacements:structuredClone(s.logoPlacements||{})};
+ const next={...structuredClone(defaultState),...s,crop:s.crop||{},review:s.review||{},logoPlacements:structuredClone(s.logoPlacements||{}),logoVisibility:{...s.logoVisibility}};
  // Preserve a customized legacy logo on the last edited placement; new placements are independent.
  if(!s.logoPlacements&&s.logo&&Object.keys(defaultState.logo).some(k=>s.logo[k]!==defaultState.logo[k]))next.logoPlacements[s.placement||'discover']={...defaultState.logo,...s.logo};
+ // The featured banner's old "Show logo on banner" switch becomes its logo visibility.
+ if(s.showBannerLogo===false&&next.logoVisibility.hero===undefined)next.logoVisibility.hero=false;
+ delete next.showBannerLogo;
  if(s.headline==='YOUR NEXT MOVE STARTS HERE')next.headline=defaultState.headline;
  if(s.postTitle==='A NEW CHALLENGE AWAITS')next.postTitle=defaultState.postTitle;
  if(s.eventTitle==='ARCADE CHESS COMMUNITY NIGHT')next.eventTitle=defaultState.eventTitle;

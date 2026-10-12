@@ -12,13 +12,13 @@ Made by [Puzzler Creations](https://github.com/puzzler-dev). The starter project
 - **Lobby preview**: your lobby background behind a party of 0–4 players. The pads and the glossy floor mirror your art the way they do in game, so you can see what lands behind the party and the menus.
 - **A/B variants**: five artwork slots per variant (landscape with text, landscape art only, portrait with text, portrait art only, transparent logo), compared side by side.
 - **File checks** against the Creator Portal upload limits: dimensions, file type, file size, video length and logo transparency.
-- **Framing and logo placement** per preview, plus safe-area guides for the UI.
+- **Framing, logo placement and logo on/off** per preview, plus safe-area guides for the UI.
 - **Export** any preview as a PNG, or a JSON checklist of your files.
 
 ## How to use it
 
 1. Open the site and choose **Import media**. Drop in your thumbnails, logo, lobby background, screenshots and videos, then assign each file to a slot.
-2. Switch between the preview tabs. **Art + logo** composes the art-only thumbnails with your logo; drag the framing sliders to see different crops.
+2. Switch between the preview tabs. Choose **Art only** to compose the art-only thumbnails with your logo, and use the **Logo** switch under Preview layers to show or hide it on any tab. Drag the framing sliders to see different crops.
 3. Under **Island details**, set your island's title, creator name and description so the simulated UI shows your text.
 4. Check **Delivery checklist** before you upload, and export the previews you want to share.
 

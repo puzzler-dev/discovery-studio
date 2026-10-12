@@ -1,0 +1,187 @@
+{
+  "source": "https://fortnite.gg/discover",
+  "retrievedAt": "2026-10-12T03:36:34.377Z",
+  "note": "Creator-made islands only. Static reference thumbnails for preview compositions. Displayed counts are examples, not live analytics.",
+  "images": [
+    {
+      "id": "farm-simulator",
+      "title": "Farm Simulator",
+      "page": "https://fortnite.gg/island/9621-3035-2804",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/XelvNUNiWWZTCbqgAI/image/landscape_comp.jpeg",
+      "src": "assets/context/farm-simulator.jpg",
+      "examplePlayers": "529",
+      "creator": "aokgames"
+    },
+    {
+      "id": "droid-tycoon",
+      "title": "Star Wars Droid Tycoon",
+      "page": "https://fortnite.gg/island/7865-8305-9184",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/JpEgVyTIFCyJMHjFSL/image/landscape_comp.jpeg",
+      "src": "assets/context/droid-tycoon.jpg",
+      "examplePlayers": "15.8K",
+      "creator": "foad"
+    },
+    {
+      "id": "pillars",
+      "title": "PILLARS",
+      "page": "https://fortnite.gg/island/7786-0958-2481",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/qEwvyEcqRnzvPuBvdq/image/landscape_comp.jpeg",
+      "src": "assets/context/pillars.jpg",
+      "examplePlayers": "22.6K",
+      "creator": "hive"
+    },
+    {
+      "id": "super-pillars",
+      "title": "SUPER PILLARS",
+      "page": "https://fortnite.gg/island/4540-2792-0054",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/zEFQfzINErZTBgLemG/image/landscape_comp.jpeg",
+      "src": "assets/context/super-pillars.jpg",
+      "examplePlayers": "6.9K",
+      "creator": "noble6"
+    },
+    {
+      "id": "xeno-legend",
+      "title": "XENO LEGEND 2",
+      "page": "https://fortnite.gg/island/5786-6009-0800",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/RRYPyOJCxPKVDRvlWF/image/landscape_comp.jpeg",
+      "src": "assets/context/xeno-legend.jpg",
+      "examplePlayers": "444",
+      "creator": "love-is-real"
+    },
+    {
+      "id": "bodycam",
+      "title": "Bodycam FPS",
+      "page": "https://fortnite.gg/island/9784-3946-5466",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/hhfIZwXdlYpOjTFtjL/image/landscape_comp_b.jpeg",
+      "src": "assets/context/bodycam.jpg",
+      "examplePlayers": "2.5K",
+      "creator": "bodycamreissad"
+    },
+    {
+      "id": "zombies-vs-human",
+      "title": "ZOMBIES VS HUMAN",
+      "page": "https://fortnite.gg/island/8697-6667-0293",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/FDbOxWWrjmDikLdnZY/image/landscape_comp.jpeg",
+      "src": "assets/context/zombies-vs-human.jpg",
+      "examplePlayers": "46",
+      "creator": "kopaman"
+    },
+    {
+      "id": "murder-mystery",
+      "title": "Murder Mystery",
+      "page": "https://fortnite.gg/island/5253-8468-3364",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/eEcPmwvSsDBlatSHOL/image/landscape_comp.jpeg",
+      "src": "assets/context/murder-mystery.jpg",
+      "examplePlayers": "7.5K",
+      "creator": "goodgamers"
+    },
+    {
+      "id": "bed-wars",
+      "title": "Bed Wars",
+      "page": "https://fortnite.gg/island/7048-8422-2298",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/yiImZBBuuHzeDKiHrP/image/landscape_comp.jpeg",
+      "src": "assets/context/bed-wars.jpg",
+      "examplePlayers": "6.3K",
+      "creator": "goodgamers"
+    },
+    {
+      "id": "every-gun",
+      "title": "1V1 WITH EVERY GUN",
+      "creator": "hive",
+      "page": "https://fortnite.gg/island/6155-1398-4059",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/NNLhnrxQQWGooTuvyp/image/landscape_comp_b.jpeg",
+      "src": "assets/context/every-gun.jpg",
+      "examplePlayers": "17K"
+    },
+    {
+      "id": "steal-an-egg",
+      "title": "Steal An Egg",
+      "creator": "gargantuaa",
+      "page": "https://fortnite.gg/island/6898-9449-5160",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/pyiqWrGXmgEUTvdjZQ/image/landscape_comp.jpeg",
+      "src": "assets/context/steal-an-egg.jpg",
+      "examplePlayers": "16K"
+    },
+    {
+      "id": "mega-red-blue",
+      "title": "MEGA RED VS BLUE",
+      "creator": "rvb",
+      "page": "https://fortnite.gg/island/8234-1352-6956",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/jHEUdAsVDbApnxdSAm/image/landscape_comp.jpeg",
+      "src": "assets/context/mega-red-blue.jpg",
+      "examplePlayers": "9.1K"
+    },
+    {
+      "id": "the-pit",
+      "title": "The Pit - Free For All",
+      "creator": "thepitland",
+      "page": "https://fortnite.gg/island/4590-4493-7113",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/ZZTxdZqDCNDEQjutaB/image/landscape_comp.jpeg",
+      "src": "assets/context/the-pit.jpg",
+      "examplePlayers": "8.3K"
+    },
+    {
+      "id": "go-goated",
+      "title": "GO GOATED! Zone Wars",
+      "creator": "theboydilly",
+      "page": "https://fortnite.gg/island/3305-1551-7747",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/kRvyRmABEBUwUpqAxX/image/landscape_comp.jpeg",
+      "src": "assets/context/go-goated.jpg",
+      "examplePlayers": "7.9K"
+    },
+    {
+      "id": "go-up-brainrots",
+      "title": "GO UP FOR BRAINROTS",
+      "creator": "ferins",
+      "page": "https://fortnite.gg/island/7875-7934-3852",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/MEjkAtBQKVnsdCpuwN/image/landscape_comp.jpeg",
+      "src": "assets/context/go-up-brainrots.jpg",
+      "examplePlayers": "12.6K"
+    },
+    {
+      "id": "piece-control",
+      "title": "Piece Control 2v2",
+      "creator": "bullseye",
+      "page": "https://fortnite.gg/island/0148-0322-5437",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/RbQMfxTcVyWDXxddKy/image/landscape_comp.jpeg",
+      "src": "assets/context/piece-control.jpg",
+      "examplePlayers": "5.4K"
+    },
+    {
+      "id": "cash-city",
+      "title": "CASH CITY",
+      "creator": "johnnyblueprint",
+      "page": "https://fortnite.gg/island/9909-6421-7669",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/hUqBDcoDTgJsDaHDrc/image/landscape_comp.jpeg",
+      "src": "assets/context/cash-city.jpg",
+      "examplePlayers": "4.1K"
+    },
+    {
+      "id": "asmr-tycoon",
+      "title": "ASMR TYCOON",
+      "creator": "bonzai.pro",
+      "page": "https://fortnite.gg/island/0045-4126-6765",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/aeFSGZmVlrcSWehFrd/image/landscape_comp_b.jpeg",
+      "src": "assets/context/asmr-tycoon.jpg",
+      "examplePlayers": "327"
+    },
+    {
+      "id": "run-and-scream",
+      "title": "RUN AND SCREAM [HORROR]",
+      "creator": "blindstudios",
+      "page": "https://fortnite.gg/island/0487-9801-6989",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/uBJqVMCIAjAeZBqPzV/image/landscape_comp.jpeg",
+      "src": "assets/context/run-and-scream.jpg",
+      "examplePlayers": "812"
+    },
+    {
+      "id": "lava-pillars",
+      "title": "FLOOR IS LAVA PILLARS",
+      "creator": "1v1-1v1l",
+      "page": "https://fortnite.gg/island/2515-3906-1691",
+      "url": "https://cdn-0001.qstv.on.epicgames.com/HEaEVhOCUDKSUfQXWF/image/landscape_comp.jpeg",
+      "src": "assets/context/lava-pillars.jpg",
+      "examplePlayers": "1.2K"
+    }
+  ]
+}

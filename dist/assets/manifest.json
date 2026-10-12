@@ -1,0 +1,110 @@
+{
+  "A:landscape": {
+    "name": "landscape_comp.jpeg",
+    "url": "assets/landscape_comp.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "size": 212577,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "A:landscapeArt": {
+    "name": "landscape_art.jpeg",
+    "url": "assets/landscape_art.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "size": 451279,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "A:portrait": {
+    "name": "portrait.jpeg",
+    "url": "assets/portrait.jpeg",
+    "width": 1440,
+    "height": 1920,
+    "size": 375963,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "A:portraitArt": {
+    "name": "portrait_art.jpeg",
+    "url": "assets/portrait_art.jpeg",
+    "width": 1440,
+    "height": 1920,
+    "size": 318021,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "A:logo": {
+    "name": "logo.png",
+    "url": "assets/logo.png",
+    "width": 1440,
+    "height": 608,
+    "size": 577977,
+    "mime": "image/png",
+    "alpha": true,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "shared:lobby": {
+    "name": "lobby.jpeg",
+    "url": "assets/lobby.jpeg",
+    "width": 2048,
+    "height": 1024,
+    "size": 243869,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "shared:screen1": {
+    "name": "screenshot_0.jpeg",
+    "url": "assets/screenshot_0.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "size": 199825,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "shared:screen2": {
+    "name": "screenshot_1.jpeg",
+    "url": "assets/screenshot_1.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "size": 202564,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  },
+  "shared:screen3": {
+    "name": "screenshot_2.jpeg",
+    "url": "assets/screenshot_2.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "size": 214211,
+    "mime": "image/jpeg",
+    "alpha": false,
+    "video": false,
+    "duration": null,
+    "custom": false
+  }
+}
